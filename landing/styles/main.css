@@ -1,0 +1,176 @@
+body {
+	font-family: "caveat", cursive;
+	font-size: 10px;
+	color:rgb(194, 98, 116);
+	margin: 0;
+	padding: 0;
+}
+.header{
+
+}
+.header-flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	margin: auto;
+	padding: 15px 20px;
+}
+.logo{
+	font-size: 3em;
+	line-height: 2;
+	margin: 0;
+	padding: 0;
+}
+.menu{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.menu-item{
+	display: inline-block;
+	padding: 0 20px;
+	margin: 0 10px;
+	line-height: 2;
+}
+.menu-link{
+	color: rgb(194, 98, 116);
+	text-decoration:none;
+	font-size: 1.7em;
+}
+.menu-link:hover{
+	color: rgb(14, 108, 226);
+	transition: 0.5s;
+}
+.searcher{
+	background: transparent;
+	border: none;
+	outline: none;
+	color: rgb(194, 98, 116);
+	font-size: 1.5em;
+	background: url();
+	background-size: 17px;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+.searcher:focus{
+	background: 3px solid rgb(214, 308, 226);
+}
+.smile {
+	height: calc(100vh - 6em);
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHIrKbWwZJmlVIHylsRrnLjQg_p9dKsxWGTA&s);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.smile::after {
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+}
+.smile > .maska{
+	z-index: 1;
+	text-align:center;
+}
+.lob{
+	font-size: 7em;
+	font-weight: bolder;
+}
+.brov{
+	font-size: 3em;
+}
+.nos button{
+	width: 250px;
+	height: 100px;
+}
+.b-left{
+	background:#d39677 ;
+	color:#89d7e3 ;
+	border: 3px solid rgb(37, 138, 83, 1 );
+	transition: 1s;
+}
+.b-right{
+	background:#d39677 ;
+	color:#89d7e3 ;
+	border: 3px solid rgb(37, 138, 83, 1 ) ;
+	transition: 1s;
+}
+
+.b-left:hover{
+	background:#a21c24 ;
+	color:#0d073f ;
+	border: 3px solid rgb(37, 138, 83, 1 ) ;
+}
+.b-right:hover{
+	background:#a21c24 ;
+	color:#0d073f ;
+	border: 3px solid rgb(37, 138, 83, 1 );
+}
+.about{
+	padding: 50px 0;
+	text-align: center;
+}
+.about-text h3{
+	font-size: 6em;
+	margin: 20px 0;
+}
+.about-text p{
+	font-size: 1.7em;
+	margin: auto;
+	width: 60%;
+}
+.about-row{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+	flex-wrap: wrap;
+}
+.about-col{
+	width: calc(30% - 20px); 
+	padding: 10px;
+	min-width: 300px;
+}
+.about-col img{
+	width: 50%;
+}
+.about-col p{
+	font-size: 1.7em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
